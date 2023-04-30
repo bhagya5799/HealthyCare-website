@@ -1,6 +1,15 @@
 .home {
   width: 100dvw;
 }
+@media screen and (max-width:680px) {
+  .home {
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .header-bar {
   position: fixed;

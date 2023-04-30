@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+  align-items: center;
 }
 .card {
   height: 8rem;
-  width: 10rem;
+  width: 320px;
   display: flex;
   text-align: center;
   flex-direction: column;
